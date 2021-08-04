@@ -24,8 +24,5 @@ elif [ $SECRET_TYPE == "iam_credentials" ]; then
     echo $APIKEY  
 fi    
 
-# echo "Creating rabbitmq secrets in schematics namespace...."
-# kubectl create secret generic rabbitmq-password1 --from-literal=rabbitmq-password=$rabitmqpassword -n schematics
-# kubectl create secret generic rabbitmq-username1 --from-literal=rabbitmq-username=$rabitmqusername -n schematics
 
 
